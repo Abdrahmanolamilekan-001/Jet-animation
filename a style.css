@@ -1,0 +1,76 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    background: fixed;
+} */
+#aeroplane{
+ position: relative;
+ /* transform: translateX(1050px); */
+ bottom: 170px;
+ animation: aeroplane 10s infinite ;
+ /* transform: translate(1000px); */
+ left: 1050px;
+}
+ @keyframes aeroplane{
+    /* from{
+      transform: translate(1000px);
+    }
+    to{
+       transform: translate(900px); 
+    } */
+ 0%{
+  transform: translate(00px);
+ } 
+ 25%{
+   transform: translate(-900px,-100px) rotate(30px);
+ } 
+ 50%{
+   transform: translate(-3000px,-200px);
+ } 
+ 75%{
+   transform: translate(-3500PX,-2500PX);
+ }
+ 100%{
+    transform: translate(-3000px,-3100px);
+ }
+ }
+ /* #spider{
+    position: relative;
+    bottom: 670px;
+    left: 1100px;
+   transform: translate(1900px);
+   animation: spider 4s   infinite;
+
+ }
+
+@keyframes spider{
+    from{
+        transform: translate(1500px);
+    }
+    to{
+        transform: translate(-1500px);
+        border-image: round;
+    }
+} */
+#child{
+    position: relative;
+    bottom: 300px;
+    transform: translate(1900px);
+    animation:child 15s infinite ;
+}
+@keyframes child{
+    from{
+        transform: translate(1500px);
+    }
+    to{
+        transform: translate(-2000px);
+    }
+}
+/* #house{
+    position: relative;
+
+}
+#road{
+    position: relative;
+    top: 200px;
+} */
